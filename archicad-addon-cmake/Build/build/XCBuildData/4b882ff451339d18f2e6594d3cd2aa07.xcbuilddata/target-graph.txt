@@ -1,0 +1,4 @@
+Target dependency graph (2 targets)
+Target 'CMakeTarget' in project 'ExampleAddOn-27'
+➜ Explicit dependency on target 'ZERO_CHECK' in project 'ExampleAddOn-27'
+Target 'ZERO_CHECK' in project 'ExampleAddOn-27' (no dependencies)

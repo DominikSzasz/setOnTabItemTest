@@ -1,0 +1,7 @@
+
+############################## This file was created by GRC compiler ##############################################
+#
+# Source file: /Users/dominikszasz/Programming/SummerArchitects/Archicad/SetOnTabTest/archicad-addon-cmake/Build/ResourceObjects/AddOnFix.grc.i        Code table: NUL              #
+######## Version 2.0 - Macintosh ##################### (c) 1996-2026 by Graphisoft ############################
+GSRSRDDepends [ GSFiles $(bundleLocResDir) : "MDID_32500.rsrd" ] : "/Users/dominikszasz/Programming/SummerArchitects/Archicad/SetOnTabTest/archicad-addon-cmake/Build/ResourceObjects/MDID_32500.rsrd" : $(rsrdlogDone) ;
+GSTIFDepends [ GSFiles $(bundleResDir) : "10001.tif" ] : "/Users/dominikszasz/Programming/SummerArchitects/Archicad/SetOnTabTest/archicad-addon-cmake/Build/ResourceObjects/10001.tif" : $(rsrdlogDone) ;

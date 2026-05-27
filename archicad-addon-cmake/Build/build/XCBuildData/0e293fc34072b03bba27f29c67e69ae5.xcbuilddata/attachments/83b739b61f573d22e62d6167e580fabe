@@ -1,0 +1,31 @@
+#!/bin/sh
+set -e
+if test "$CONFIGURATION" = "Debug"; then :
+  cd /Users/dominikszasz/Programming/SummerArchitects/Archicad/SetOnTabTest/archicad-addon-cmake/Build
+  /opt/homebrew/bin/cmake -E make_directory /Users/dominikszasz/Programming/SummerArchitects/Archicad/SetOnTabTest/archicad-addon-cmake/Build/ResourceObjects
+  /opt/homebrew/Frameworks/Python.framework/Versions/3.14/bin/python3.14 /Users/dominikszasz/Programming/SummerArchitects/Archicad/SetOnTabTest/archicad-addon-cmake/Tools/CompileResources.py ExampleAddOn INT INT 27 default /Users/dominikszasz/Programming/SummerArchitects/Archicad/ACAPI-DevKits/ACAPI-DevKit-27-3001/Support /Users/dominikszasz/Programming/SummerArchitects/Archicad/SetOnTabTest/archicad-addon-cmake/Src /Users/dominikszasz/Programming/SummerArchitects/Archicad/SetOnTabTest/archicad-addon-cmake /Users/dominikszasz/Programming/SummerArchitects/Archicad/SetOnTabTest/archicad-addon-cmake/Build/ResourceObjects /Users/dominikszasz/Programming/SummerArchitects/Archicad/SetOnTabTest/archicad-addon-cmake/Build/Debug/ExampleAddOn.bundle/Contents/Resources --permissiveLocalization
+  /opt/homebrew/bin/cmake -E copy /Users/dominikszasz/Programming/SummerArchitects/Archicad/ACAPI-DevKits/ACAPI-DevKit-27-3001/Support/Inc/PkgInfo /Users/dominikszasz/Programming/SummerArchitects/Archicad/SetOnTabTest/archicad-addon-cmake/Build/Debug/ExampleAddOn.bundle/Contents/PkgInfo
+  /opt/homebrew/bin/cmake -E touch /Users/dominikszasz/Programming/SummerArchitects/Archicad/SetOnTabTest/archicad-addon-cmake/Build/ResourceObjects/AddOnResources.stamp
+fi
+if test "$CONFIGURATION" = "Release"; then :
+  cd /Users/dominikszasz/Programming/SummerArchitects/Archicad/SetOnTabTest/archicad-addon-cmake/Build
+  /opt/homebrew/bin/cmake -E make_directory /Users/dominikszasz/Programming/SummerArchitects/Archicad/SetOnTabTest/archicad-addon-cmake/Build/ResourceObjects
+  /opt/homebrew/Frameworks/Python.framework/Versions/3.14/bin/python3.14 /Users/dominikszasz/Programming/SummerArchitects/Archicad/SetOnTabTest/archicad-addon-cmake/Tools/CompileResources.py ExampleAddOn INT INT 27 default /Users/dominikszasz/Programming/SummerArchitects/Archicad/ACAPI-DevKits/ACAPI-DevKit-27-3001/Support /Users/dominikszasz/Programming/SummerArchitects/Archicad/SetOnTabTest/archicad-addon-cmake/Src /Users/dominikszasz/Programming/SummerArchitects/Archicad/SetOnTabTest/archicad-addon-cmake /Users/dominikszasz/Programming/SummerArchitects/Archicad/SetOnTabTest/archicad-addon-cmake/Build/ResourceObjects /Users/dominikszasz/Programming/SummerArchitects/Archicad/SetOnTabTest/archicad-addon-cmake/Build/Release/ExampleAddOn.bundle/Contents/Resources --permissiveLocalization
+  /opt/homebrew/bin/cmake -E copy /Users/dominikszasz/Programming/SummerArchitects/Archicad/ACAPI-DevKits/ACAPI-DevKit-27-3001/Support/Inc/PkgInfo /Users/dominikszasz/Programming/SummerArchitects/Archicad/SetOnTabTest/archicad-addon-cmake/Build/Release/ExampleAddOn.bundle/Contents/PkgInfo
+  /opt/homebrew/bin/cmake -E touch /Users/dominikszasz/Programming/SummerArchitects/Archicad/SetOnTabTest/archicad-addon-cmake/Build/ResourceObjects/AddOnResources.stamp
+fi
+if test "$CONFIGURATION" = "MinSizeRel"; then :
+  cd /Users/dominikszasz/Programming/SummerArchitects/Archicad/SetOnTabTest/archicad-addon-cmake/Build
+  /opt/homebrew/bin/cmake -E make_directory /Users/dominikszasz/Programming/SummerArchitects/Archicad/SetOnTabTest/archicad-addon-cmake/Build/ResourceObjects
+  /opt/homebrew/Frameworks/Python.framework/Versions/3.14/bin/python3.14 /Users/dominikszasz/Programming/SummerArchitects/Archicad/SetOnTabTest/archicad-addon-cmake/Tools/CompileResources.py ExampleAddOn INT INT 27 default /Users/dominikszasz/Programming/SummerArchitects/Archicad/ACAPI-DevKits/ACAPI-DevKit-27-3001/Support /Users/dominikszasz/Programming/SummerArchitects/Archicad/SetOnTabTest/archicad-addon-cmake/Src /Users/dominikszasz/Programming/SummerArchitects/Archicad/SetOnTabTest/archicad-addon-cmake /Users/dominikszasz/Programming/SummerArchitects/Archicad/SetOnTabTest/archicad-addon-cmake/Build/ResourceObjects /Users/dominikszasz/Programming/SummerArchitects/Archicad/SetOnTabTest/archicad-addon-cmake/Build/MinSizeRel/ExampleAddOn.bundle/Contents/Resources --permissiveLocalization
+  /opt/homebrew/bin/cmake -E copy /Users/dominikszasz/Programming/SummerArchitects/Archicad/ACAPI-DevKits/ACAPI-DevKit-27-3001/Support/Inc/PkgInfo /Users/dominikszasz/Programming/SummerArchitects/Archicad/SetOnTabTest/archicad-addon-cmake/Build/MinSizeRel/ExampleAddOn.bundle/Contents/PkgInfo
+  /opt/homebrew/bin/cmake -E touch /Users/dominikszasz/Programming/SummerArchitects/Archicad/SetOnTabTest/archicad-addon-cmake/Build/ResourceObjects/AddOnResources.stamp
+fi
+if test "$CONFIGURATION" = "RelWithDebInfo"; then :
+  cd /Users/dominikszasz/Programming/SummerArchitects/Archicad/SetOnTabTest/archicad-addon-cmake/Build
+  /opt/homebrew/bin/cmake -E make_directory /Users/dominikszasz/Programming/SummerArchitects/Archicad/SetOnTabTest/archicad-addon-cmake/Build/ResourceObjects
+  /opt/homebrew/Frameworks/Python.framework/Versions/3.14/bin/python3.14 /Users/dominikszasz/Programming/SummerArchitects/Archicad/SetOnTabTest/archicad-addon-cmake/Tools/CompileResources.py ExampleAddOn INT INT 27 default /Users/dominikszasz/Programming/SummerArchitects/Archicad/ACAPI-DevKits/ACAPI-DevKit-27-3001/Support /Users/dominikszasz/Programming/SummerArchitects/Archicad/SetOnTabTest/archicad-addon-cmake/Src /Users/dominikszasz/Programming/SummerArchitects/Archicad/SetOnTabTest/archicad-addon-cmake /Users/dominikszasz/Programming/SummerArchitects/Archicad/SetOnTabTest/archicad-addon-cmake/Build/ResourceObjects /Users/dominikszasz/Programming/SummerArchitects/Archicad/SetOnTabTest/archicad-addon-cmake/Build/RelWithDebInfo/ExampleAddOn.bundle/Contents/Resources --permissiveLocalization
+  /opt/homebrew/bin/cmake -E copy /Users/dominikszasz/Programming/SummerArchitects/Archicad/ACAPI-DevKits/ACAPI-DevKit-27-3001/Support/Inc/PkgInfo /Users/dominikszasz/Programming/SummerArchitects/Archicad/SetOnTabTest/archicad-addon-cmake/Build/RelWithDebInfo/ExampleAddOn.bundle/Contents/PkgInfo
+  /opt/homebrew/bin/cmake -E touch /Users/dominikszasz/Programming/SummerArchitects/Archicad/SetOnTabTest/archicad-addon-cmake/Build/ResourceObjects/AddOnResources.stamp
+fi
+

@@ -1,0 +1,3 @@
+/Users/dominikszasz/Programming/SummerArchitects/Archicad/SetOnTabTest/archicad-addon-cmake/Build/CMakeFiles/CMakeTarget.dir
+/Users/dominikszasz/Programming/SummerArchitects/Archicad/SetOnTabTest/archicad-addon-cmake/Build/CMakeFiles/ALL_BUILD.dir
+/Users/dominikszasz/Programming/SummerArchitects/Archicad/SetOnTabTest/archicad-addon-cmake/Build/CMakeFiles/ZERO_CHECK.dir
