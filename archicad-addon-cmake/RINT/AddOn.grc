@@ -11,6 +11,6 @@
 'GDLG' ID_ADDON_DLG Modal | grow 40 40 345 220 "" {
     /* [1] */ Button        220 187  90 23 LargePlain "OK"
     /* [2] */ Button        320 187  90 23 LargePlain "Cancel"
-    /* [3] */ SingleSelList  10  10 100 165 LargePlain PartialItems 21 HasHeader 21
-    /* [4] */ TextEdit      205  10 80  20 LargePlain noFrame 255
+    /* [3] */ TextEdit      205  10 80  20 LargePlain noFrame 255
+    /* [4] */ SingleSelList  10  10 100 165 LargePlain PartialItems 21 HasHeader 21
 }

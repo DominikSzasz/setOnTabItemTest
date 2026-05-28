@@ -26,8 +26,8 @@ public:
         ExampleDialogResourceId = ID_ADDON_DLG,
         OKButtonId = 1,
         CancelButtonId = 2,
-        ItemListId = 3,
-        TextEditId = 4
+        TextEditId = 3,
+        ItemListId = 4
     };
 
     ExampleDialog () :
